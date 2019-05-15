@@ -1,0 +1,74 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #FFF;
+}
+
+.bg-copier {
+	background: url("../img/panel-copier.png") no-repeat center center #000;
+}
+
+.bg-copier .logo {
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	margin: 75px 0 70px;
+}
+
+.bg-construction { background-color: #000; }
+
+.under-construction {
+	font-size: 52px;
+	font-weight: 100;
+	text-align: center;
+	padding: 25px 0;
+}
+
+.see-services {
+	font-weight: 100;
+	text-align: center;
+	font-size: 42px;
+	margin: 45px 0 80px;
+}
+
+.services li {
+	font-size: 42px;
+	font-weight: 100;
+	line-height: 60px;
+}
+
+.services {
+	margin-bottom: 130px;
+}
+
+.contacts {
+	background-color: #FFF;
+	color: #000;
+	font-size: 26px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+	padding: 20px 0;
+}
+
+#copias-express-map {
+	height: 400px;
+	width: 100%;
+	color: #000;
+}
+
+#copias-express-map img { max-width: none; }
+
+.juelisjr {
+	background-color: #000;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.juelisjr p { margin: 0; }
+.juelisjr a {
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
