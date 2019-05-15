@@ -1,5 +1,5 @@
 /*
-* Código seguido de um artigo do Tableless
+* Ccdigo seguido de um artigo do Tableless
 * (http://tableless.com.br/api-google-maps-v3/ - por Thulio Philipe)
 *
 * Implementado por Juelis Jr. (juelis.jr@outlook.com)
@@ -16,7 +16,7 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
 
-    // Parâmetros do texto que será exibido no clique;
+    // Parametros do texto que sera exibido no clique;
     var content = "<h2>Copias Express</h2>\r\n<p><em class=\"icon-map-marker\"></em> Av. Terra de Santana, 650</p>\r\n<p><em class=\"icon-phone\"></em> (43) 3356-0925</p>\r\n<p><em class=\"icon-envelope\"></em> <a href=\"mailto:copiasexpresslda@hotmail.com\">copiasexpresslda@hotmail.com</a></p>\r\n<p>&nbsp;</p>";
     var infowindow = new google.maps.InfoWindow({
         content: content,
@@ -36,18 +36,18 @@ function initialize() {
     });
 
 
-    // Exibir texto ao clicar no ícone;
+    // Exibir texto ao clicar no icone;
     google.maps.event.addListener(marcadorCopiasExpress, 'click', function() {
         infowindow.open(map,marcadorCopiasExpress);
     });
 
 }
 
-// Função para carregamento assíncrono
+// Funçao para carregamento assincrono
 function loadScript() {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src ="http://maps.googleapis.com/maps/api/js?key=AIzaSyCT14sPT0mLB-aWBB6ASeajiVhbVsZII7I&sensor=false&callback=initialize";
+    script.src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyCT14sPT0mLB-aWBB6ASeajiVhbVsZII7I&sensor=false&callback=initialize";
 
     document.body.appendChild(script);
 }
