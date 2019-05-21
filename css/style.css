@@ -3,17 +3,11 @@ body {
 	color: #FFF;
 }
 
-.bg-copier {
-	background: url("../img/panel-copier.png") no-repeat center center #000;
-}
-
-.bg-copier .logo {
-	display: block;
-	margin: 0 auto;
-}
+.header-wrapper { background-color: rgba(0, 0, 0, 0.8); }
 
 h1 {
-	margin: 75px 0 70px;
+	margin: 40px 0 40px;
+	text-align: center;
 }
 
 .bg-construction { background-color: #000; }
@@ -26,26 +20,26 @@ h1 {
 }
 
 .see-services {
-	font-weight: 100;
+	font-weight: bold;
 	text-align: center;
-	font-size: 42px;
-	margin: 45px 0 80px;
+	font-size: 36px;
+	margin: 25px 0 40px;
 }
 
 .services li {
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: 100;
 	line-height: 60px;
 }
 
 .services {
-	margin-bottom: 130px;
+	margin-bottom: 40px;
 }
 
 .contacts {
 	background-color: #FFF;
 	color: #000;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 400;
 	text-align: center;
 	line-height: 40px;
